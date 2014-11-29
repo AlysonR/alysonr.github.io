@@ -1,46 +1,94 @@
+@font-face {
+	font-family: "Caviar";
+	src: url("/fonts/CaviarDreams.ttf");
+}
+#main {
+	background-color: white;
+	background-image: url("/images/clouds.jpg");
+}
 .content {
 	width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
 }
 .banner {
-	background-color: #4D8069;
-	border-bottom-width:12px;
-	border-color:black;
-	border-bottom-style:double;
+	font-family: "Caviar", serif;
+	font-size: 56px;
+	text-align: center;
+	margin-bottom: 30px;
+	background-color: white;
+	padding-bottom: 30px;
+	padding-top: 2px;
 }
 .banner img{
-	height: 300px;
+	
 }
 .bar {
 	font-family: "Georgia", serif;
-	font-size: 24px;
+	font-size: 26px;
 	font-weight: bold;
 	text-align: center;
-	background-color: #E8D0B7;
-	padding-top:9px;
-	padding-bottom: 9px
+	padding-bottom: 10px;
+	line-height:50px;
+	background-color: white;
+	color: black;
+	margin-top: 30px;
+
 }
+.bar img{
+	height: 200px;
+}
+
+
+
 .body {
 	font-family: "Georgia",serif;
 	font-size: 16px;
 	text-align: left;
-	border-color:black;
+	border-color:white;
 	border-width: 4px;
-	border-style: solid;
-	margin-top:13px;
+	border-style: double;
+	
 	padding:5px;
 	line-height: 150%;
+	background-color:white;
 
 }
 .body h1{
-	font-weight:bolder;
-	font-size: 38px;
+	font-family: "Georgia", serif;
+	font-size: 26px;
+	font-weight: bold;
 	line-height: normal;
 	text-align: center;
 	padding:0px;
 	padding-right:20px;
+	text-transform: lowercase;
+	color: #2c3963;
+
 }
 .body p{
-	text-indent:30px;
+	
+}
+.posts {
+	font-family:"Georgia",serif;
+	text-align:left;
+	margin-left:10px;
+	background-color: white;
+	padding: 10px;
+	font-weight: normal;
+	border-width: 4px;
+	border-style: double;
+	text-transform: lowercase;
+}
+.posts h1{
+	font-size:28px;
+	font-weight:normal;
+
+}
+.posts h2{
+	font-size:18px;
+	font-weight:normal;
+}
+.posts span{
+
 }
