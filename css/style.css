@@ -2,9 +2,8 @@
 	font-family: "Caviar";
 	src: url("/fonts/CaviarDreams.ttf");
 }
-#main {
-	background-color: white;
-	background-image: url("/images/clouds.jpg");
+body {
+	background-image: url("/images/cloudsbw.jpg");
 }
 .content {
 	width: 1000px;
@@ -39,19 +38,14 @@
 	height: 200px;
 }
 
-
-
 .body {
 	font-family: "Georgia",serif;
 	font-size: 16px;
 	text-align: left;
-	border-color:white;
-	border-width: 4px;
-	border-style: double;
-	
 	padding:5px;
 	line-height: 150%;
 	background-color:white;
+	list-style-type: none;
 
 }
 .body h1{
@@ -63,21 +57,25 @@
 	padding:0px;
 	padding-right:20px;
 	text-transform: lowercase;
-	color: #2c3963;
+}
+.body h2{
+	font-size: 24px;
+	font-weight: normal;
+	font-family: "Caviar", sans-serif;
+	line-height: 26px;
+}
+.p1{
+	font-size: 13px;
+	text-align: center;
+}
 
-}
-.body p{
-	
-}
 .posts {
 	font-family:"Georgia",serif;
 	text-align:left;
 	margin-left:10px;
 	background-color: white;
-	padding: 10px;
+	padding-left: 10px;
 	font-weight: normal;
-	border-width: 4px;
-	border-style: double;
 	text-transform: lowercase;
 }
 .posts h1{
@@ -91,4 +89,20 @@
 }
 .posts span{
 
+}
+
+
+
+
+ul.enlarge{
+list-style-type:none; /*remove the bullet point*/
+}
+ul.enlarge li{
+display:inline-block; /*places the images in a line*/
+position: relative; /*allows precise positioning of the popup image when used with position:absolute - see support section */
+z-index: 0; /*resets the stack order of the list items - we'll increase in step 4. See support section for more info*/
+margin:10px 40px 0 20px; /*space between the images*/
+}
+a {
+	color: inherit;
 }
